@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vishwanth Thalla • Senior Software Engineer</title>
+  <meta name="description" content="Senior Software Engineer in Austin, TX. Java • Spring Boot • React • Microservices • Cloud (AWS/Azure) • DevOps. View projects, experience, and get in touch." />
+  <meta name="author" content="Vishwanth Thalla" />
+  <meta property="og:title" content="Vishwanth Thalla – Senior Software Engineer" />
+  <meta property="og:description" content="Java, Spring Boot, React, Microservices, Cloud (AWS/Azure), DevOps." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/profile.jpg" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚙️</text></svg>">
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#EEF6FF', 100: '#D9ECFF', 200: '#B6D7FF', 300: '#84BCFF', 400: '#4A9DFF', 500: '#1A7BFF', 600: '#0E5FE0', 700: '#0C4AB3', 800: '#0D3B8A', 900: '#0E326F'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.7); }
+    .dark .glass { background: rgba(17,24,39,0.6); }
+  </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/60 dark:border-slate-800/60 bg-white/70 dark:bg-slate-900/70 glass">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold tracking-tight text-slate-800 dark:text-white">Vishwanth Thalla</a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#about" class="hover:text-brand-500">About</a>
+        <a href="#skills" class="hover:text-brand-500">Skills</a>
+        <a href="#experience" class="hover:text-brand-500">Experience</a>
+        <a href="#projects" class="hover:text-brand-500">Projects</a>
+        <a href="#now" class="hover:text-brand-500">Now</a>
+        <a href="#contact" class="hover:text-brand-500">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a id="resumeBtn" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl border border-slate-300/60 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-sm" href="assets/Vishwanth_Thalla_Resume.pdf" download>
+          <span>Download Résumé</span>
+        </a>
+        <button id="themeToggle" class="px-3 py-1.5 rounded-xl border border-slate-300/60 dark:border-slate-700 text-sm" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="pt-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-[1fr,1.3fr] gap-10 items-center">
+      <div class="order-2 md:order-1 space-y-5">
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight">Senior Software Engineer</h1>
+        <p class="text-lg text-slate-600 dark:text-slate-300 max-w-2xl">Building secure, scalable, cloud‑native products with <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>React</strong>, and <strong>Microservices</strong>. Shipping to production with <strong>AWS/Azure</strong>, <strong>Docker/Kubernetes</strong>, and CI/CD.</p>
+        <div class="flex flex-wrap gap-3">
+          <a class="px-4 py-2 rounded-xl bg-brand-600 text-white shadow hover:bg-brand-700" href="#contact">Contact</a>
+          <a class="px-4 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700" href="mailto:vishwanth.thalla15@gmail.com">Email Me</a>
+          <a class="px-4 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700" href="https://www.linkedin.com/in/vishwanththalla/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p class="text-sm text-slate-500">Austin, TX • Open to challenging backend/platform roles</p>
+      </div>
+      <div class="order-1 md:order-2 flex justify-center">
+        <img src="assets/profile.jpg" alt="Portrait of Vishwanth Thalla" class="w-56 h-56 md:w-72 md:h-72 object-cover rounded-3xl ring-4 ring-brand-200 dark:ring-brand-800 shadow-xl" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">About</h2>
+      <p class="text-slate-600 dark:text-slate-300 max-w-3xl">I have ~5 years of experience designing and delivering production‑grade software for financial services. Recent work includes re‑architecting legacy platforms into cloud‑native microservices, building high‑throughput APIs (REST/GraphQL/gRPC), and automating infrastructure and deployments. I care about performance, security, and developer experience.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-slate-100/60 dark:bg-slate-900/60">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Core Skills</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold mb-2">Backend & APIs</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">Java 17, Spring Boot/WebFlux, Node.js, REST, GraphQL, gRPC, OAuth2/JWT</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold mb-2">Cloud & DevOps</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">AWS, Azure, Docker, Kubernetes (AKS/EKS), Terraform, Helm, ArgoCD, GitHub Actions, Jenkins</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold mb-2">Data & Messaging</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">PostgreSQL/Oracle/MongoDB, Redis, Kafka, RabbitMQ, ActiveMQ</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold mb-2">Observability & Testing</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">Prometheus, Grafana, ELK, OpenTelemetry, JUnit, Mockito, Postman, JMeter</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold mb-2">Frontend</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">React, Angular, TypeScript, Tailwind CSS</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold mb-2">Security & AI</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300">Spring Security, DevSecOps (Snyk/Checkmarx), AI integrations (LangChain, OpenAI APIs)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Experience</h2>
+      <ol class="relative border-s-2 border-slate-200 dark:border-slate-800">
+        <li class="ms-6 mb-10">
+          <div class="absolute -start-3.5 mt-1.5 w-6 h-6 rounded-full bg-brand-600"></div>
+          <h3 class="font-semibold">Northern Trust — Senior Software Engineer <span class="text-sm text-slate-500">(Nov 2024 – Present)</span></h3>
+          <ul class="list-disc ms-5 text-slate-600 dark:text-slate-300 text-sm mt-2 space-y-1">
+            <li>Re‑architected legacy systems into Azure‑hosted microservices; improved performance/resilience by ~35%.</li>
+            <li>Built and secured REST/SOAP/GraphQL/gRPC APIs; added Redis caching; cut DB load 40% and API latency 60%.</li>
+            <li>Deployed to AKS with Docker, Helm, ArgoCD; zero‑downtime releases and auto‑scaling.</li>
+            <li>CI/CD with Jenkins & GitHub Actions; Infra as Code with Terraform/Pulumi/Crossplane.</li>
+            <li>Observability with Prometheus/Grafana/ELK & OpenTelemetry; faster incident response.</li>
+          </ul>
+        </li>
+        <li class="ms-6 mb-10">
+          <div class="absolute -start-3.5 mt-1.5 w-6 h-6 rounded-full bg-brand-600"></div>
+          <h3 class="font-semibold">Truist Bank — Senior Software Engineer <span class="text-sm text-slate-500">(Feb 2023 – Nov 2024)</span></h3>
+          <ul class="list-disc ms-5 text-slate-600 dark:text-slate-300 text-sm mt-2 space-y-1">
+            <li>Migrated monoliths to reactive microservices on AWS (EC2/Lambda/RDS/S3); reduced ops complexity 30%.</li>
+            <li>Designed high‑throughput APIs with Spring Boot & Node.js; integrated MongoDB & JMS.</li>
+            <li>CloudFormation for versioned environments; BDD/TDD with JUnit/Selenium/JMeter (90%+ coverage).</li>
+          </ul>
+        </li>
+        <li class="ms-6">
+          <div class="absolute -start-3.5 mt-1.5 w-6 h-6 rounded-full bg-brand-600"></div>
+          <h3 class="font-semibold">Netenrich — Software Engineer <span class="text-sm text-slate-500">(Jul 2019 – Jul 2021)</span></h3>
+          <ul class="list-disc ms-5 text-slate-600 dark:text-slate-300 text-sm mt-2 space-y-1">
+            <li>Built event‑driven microservices (Spring Boot, MongoDB, Kafka/ActiveMQ) for insurance/finance apps.</li>
+            <li>CI/CD with Jenkins/GitHub Actions; K8s deployments; zero‑downtime releases.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Projects (optional showcase cards) -->
+  <section id="projects" class="py-16 bg-slate-100/60 dark:bg-slate-900/60">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Highlighted Work</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <article class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60">
+          <h3 class="font-semibold">Cloud‑Native Core Banking APIs</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 mt-2">Microservices for account, payments, and statements with SSO (OAuth2/JWT), rate‑limited gateways, and distributed tracing.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">Java 17</span>
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">Spring Boot</span>
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">Kafka</span>
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">AKS</span>
+          </div>
+        </article>
+        <article class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60">
+          <h3 class="font-semibold">DevEx & CI/CD Modernization</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-300 mt-2">GitOps with ArgoCD, progressive delivery, and IaC with Terraform & Pulumi; cut release time by ~30%.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">GitHub Actions</span>
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">Terraform</span>
+            <span class="px-2 py-1 rounded bg-slate-200/60 dark:bg-slate-800/60">ArgoCD</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Now / Changelog (for ongoing updates) -->
+  <section id="now" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Now</h2>
+      <ul class="space-y-3 text-slate-600 dark:text-slate-300 text-sm">
+        <li>🚀 Scaling Azure microservices with gRPC + Redis; improving P95 latency.</li>
+        <li>🧪 Rolling out OpenTelemetry traces across services; building Grafana dashboards.</li>
+        <li>🤖 Prototyping AI‑assisted code review with LLMs for test‑case generation.</li>
+      </ul>
+      <p class="mt-3 text-xs text-slate-500">Update this list regularly to show what you're actively working on.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-slate-100/60 dark:bg-slate-900/60">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+      <p class="text-slate-600 dark:text-slate-300 mb-6">The best way to reach me is by email. I usually reply within 24–48 hours.</p>
+      <div class="flex flex-wrap items-center gap-4">
+        <a class="px-4 py-2 rounded-xl bg-brand-600 text-white shadow hover:bg-brand-700" href="mailto:vishwanth.thalla15@gmail.com?subject=Interview%20Opportunity%20for%20Senior%20Software%20Engineer">Email Vishwanth</a>
+        <a class="px-4 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700" href="https://www.linkedin.com/in/vishwanththalla/" target="_blank" rel="noopener">LinkedIn Profile</a>
+        <a class="px-4 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700" href="assets/Vishwanth_Thalla_Resume.pdf" download>Download Résumé (PDF)</a>
+      </div>
+      <p class="mt-4 text-xs text-slate-500">Want a contact form? Use Formspree or EmailJS on GitHub Pages. See README notes below.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex justify-between">
+      <span>© <span id="year"></span> Vishwanth Thalla</span>
+      <a class="hover:text-brand-500" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // dark mode
+    const themeToggle = document.getElementById('themeToggle');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const stored = localStorage.getItem('theme');
+    if ((stored === 'dark') || (!stored && prefersDark)) document.documentElement.classList.add('dark');
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+  <!-- README (kept in the file for convenience) -->
+  <!--
+  📁 Place these files next to index.html (or in /assets and fix links):
+    /assets/profile.jpg               ← your portrait image (use the provided JPG)
+    /assets/Vishwanth_Thalla_Resume.pdf  ← the resume PDF (rename the uploaded PDF)
+
+  ✉️ Optional contact form on GitHub Pages (no backend):
+    • Formspree: create a free form at formspree.io, then add:
+        <form action="https://formspree.io/f/yourid" method="POST"> ... </form>
+    • EmailJS: set up emailjs, include their script, and send emails from the browser.
+
+  🛠️ Customize:
+    • Edit text in sections (About, Skills, Experience, Projects, Now).
+    • Replace LinkedIn & email links as needed.
+    • Update colors in tailwind.config above if you want a different palette.
+
+  -->
+</body>
+</html>
